@@ -1,0 +1,10 @@
+D:\projects\Ушаков\ServerTCP\bin\Debug\ServerTCP.exe.config
+D:\projects\Ушаков\ServerTCP\bin\Debug\ServerTCP.exe
+D:\projects\Ушаков\ServerTCP\bin\Debug\ServerTCP.pdb
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.csproj.AssemblyReference.cache
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.Properties.Resources.resources
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.csproj.GenerateResource.cache
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.csproj.CoreCompileInputs.cache
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.exe
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.pdb
+D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.Form1.resources

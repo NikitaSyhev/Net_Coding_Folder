@@ -1,0 +1,10 @@
+D:\projects\Ушаков\ClientTCP\bin\Debug\ClientTCP.exe.config
+D:\projects\Ушаков\ClientTCP\bin\Debug\ClientTCP.exe
+D:\projects\Ушаков\ClientTCP\bin\Debug\ClientTCP.pdb
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.csproj.AssemblyReference.cache
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.Form1.resources
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.Properties.Resources.resources
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.csproj.GenerateResource.cache
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.csproj.CoreCompileInputs.cache
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.exe
+D:\projects\Ушаков\ClientTCP\obj\Debug\ClientTCP.pdb
