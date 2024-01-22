@@ -1,0 +1,7 @@
+D:\projects\Ушаков\SocetTest\bin\Debug\SocetTest.exe.config
+D:\projects\Ушаков\SocetTest\bin\Debug\SocetTest.exe
+D:\projects\Ушаков\SocetTest\bin\Debug\SocetTest.pdb
+D:\projects\Ушаков\SocetTest\obj\Debug\SocetTest.csproj.AssemblyReference.cache
+D:\projects\Ушаков\SocetTest\obj\Debug\SocetTest.csproj.CoreCompileInputs.cache
+D:\projects\Ушаков\SocetTest\obj\Debug\SocetTest.exe
+D:\projects\Ушаков\SocetTest\obj\Debug\SocetTest.pdb
