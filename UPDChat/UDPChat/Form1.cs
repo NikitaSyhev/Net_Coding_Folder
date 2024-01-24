@@ -19,6 +19,7 @@ namespace UDPChat
         
         IPEndPoint remoteEndPoint;
         Thread threadRec;
+        CancellationTokenSource cts;
         public Form1()
         {
             InitializeComponent();
@@ -28,15 +29,21 @@ namespace UDPChat
         private void btnConnect_Click(object sender, EventArgs e)
         {
             remoteEndPoint = new IPEndPoint(IPAddress.Parse(tb_IP.Text), (int)nuPort.Value);
-             threadRec = new Thread(new ThreadStart(ThreadReceive));
-            threadRec.Start();
-        }
+            // threadRec = new Thread(new ThreadStart(ThreadReceive));
+            //threadRec.Start();
+            cts = new CancellationTokenSource();
+            Task.Run(() => ThreadReceive(cts.Token));//Этот метод принимает делегат, который представляет асинхронную операцию,
+                                                     //которую нужно выполнить. В данном случае, передается лямбда-выражение () => ThreadReceive(cts.Token).
+                                                     //Это вызывает метод ThreadReceive и передает ему токен отмены из cts.
 
-        void ThreadReceive()
+        }
+        // Этот объект используется для создания токена отмены (CancellationToken),
+        // который можно использовать для запроса отмены выполнения задачи.
+        void ThreadReceive(CancellationToken token)
         {
             try
             {
-                while (true)
+                while (token.IsCancellationRequested)
                 {
                     //прием сообщений через UDP
                     UdpClient udpClient = new UdpClient((int)nuPort.Value); //клиент, который принимает сообщения
@@ -81,7 +88,8 @@ namespace UDPChat
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            threadRec.Abort();
+            //threadRec.Abort();
+            cts.Cancel();
         }
     }
 }
