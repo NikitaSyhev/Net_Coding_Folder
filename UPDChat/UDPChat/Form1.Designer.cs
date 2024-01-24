@@ -116,6 +116,7 @@
             this.Controls.Add(this.nuPort);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.nuPort)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

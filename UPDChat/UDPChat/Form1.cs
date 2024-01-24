@@ -18,6 +18,7 @@ namespace UDPChat
 
         
         IPEndPoint remoteEndPoint;
+        Thread threadRec;
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +28,7 @@ namespace UDPChat
         private void btnConnect_Click(object sender, EventArgs e)
         {
             remoteEndPoint = new IPEndPoint(IPAddress.Parse(tb_IP.Text), (int)nuPort.Value);
-            Thread threadRec = new Thread(new ThreadStart(ThreadReceive));
+             threadRec = new Thread(new ThreadStart(ThreadReceive));
             threadRec.Start();
         }
 
@@ -72,6 +73,15 @@ namespace UDPChat
             txtAllMess.Lines.Append("--"+txtMes.Text);
             txtMes.Text = "";
 
+
+
+            ///
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            threadRec.Abort();
         }
     }
 }
