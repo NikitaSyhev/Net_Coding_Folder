@@ -22,7 +22,7 @@ namespace ClientTCP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            IPEndPoint ep=new IPEndPoint(IPAddress.Parse(maskedTextBox1.Text),(Int32)numericUpDown1.Value);
+            IPEndPoint ep = new IPEndPoint(IPAddress.Parse(maskedTextBox1.Text), (Int32)numericUpDown1.Value);
             TcpClient tcpClient = new TcpClient();
             tcpClient.Connect(ep);
             NetworkStream stream = tcpClient.GetStream();
@@ -30,7 +30,7 @@ namespace ClientTCP
             stream.Write(buffer, 0, buffer.Length);
             StreamReader sr = new StreamReader(stream, Encoding.Unicode);
             var line = sr.ReadToEndAsync();
-            allMes.Text +=line;
+            allMes.Text += line;
             tcpClient.Close();
             textBox1.Clear();
         }

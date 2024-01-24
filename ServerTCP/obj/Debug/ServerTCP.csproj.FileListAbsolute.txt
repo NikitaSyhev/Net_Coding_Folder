@@ -8,3 +8,14 @@ D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.csproj.CoreCompileInputs.
 D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.exe
 D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.pdb
 D:\projects\Ушаков\ServerTCP\obj\Debug\ServerTCP.Form1.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\bin\Debug\ServerTCP.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\bin\Debug\ServerTCP.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\bin\Debug\ServerTCP.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.Form1.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\ServerTCP\obj\Debug\ServerTCP.pdb

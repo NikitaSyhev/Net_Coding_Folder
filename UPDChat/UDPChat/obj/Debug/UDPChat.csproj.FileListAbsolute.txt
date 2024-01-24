@@ -1,0 +1,11 @@
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\bin\Debug\UDPChat.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\bin\Debug\UDPChat.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\bin\Debug\UDPChat.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.Form1.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\UPDChat\UDPChat\obj\Debug\UDPChat.pdb

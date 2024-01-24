@@ -20,7 +20,7 @@ namespace ServerTCP
     {
         public Form1()
         {
-            InitializeComponent();            
+            InitializeComponent();
 
         }
         TcpListener listener;
@@ -30,10 +30,10 @@ namespace ServerTCP
             IPEndPoint ep = new IPEndPoint(ip, 1024);
             listener = new TcpListener(ep);
             listener.Start();
-            Thread thread=new Thread(new ThreadStart(ThreadClient));
+            Thread thread = new Thread(new ThreadStart(ThreadClient));
             thread.IsBackground = true;
             thread.Start();
-            button1.Enabled = false;            
+            button1.Enabled = false;
         }
         public void ThreadClient()
         {
@@ -44,14 +44,14 @@ namespace ServerTCP
                     TcpClient ns = listener.AcceptTcpClient();
                     Invoke((MethodInvoker)delegate
                     {
-                        textBox1.Text += (ns.Client.RemoteEndPoint.ToString())+"  =>";
+                        textBox1.Text += (ns.Client.RemoteEndPoint.ToString()) + "  =>";
                     }
                     );
                     NetworkStream stream = ns.GetStream();
-                    
+
                     StreamReader sr = new StreamReader(stream, Encoding.Unicode);
                     StreamWriter writer = new StreamWriter(stream);
-                    var line=  sr.ReadToEndAsync();
+                    var line = sr.ReadToEndAsync();
                     Invoke((MethodInvoker)delegate
                     {
                         textBox1.Text += line + "\r\n";
