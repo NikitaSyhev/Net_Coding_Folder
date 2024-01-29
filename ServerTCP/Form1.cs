@@ -35,7 +35,7 @@ namespace ServerTCP
             thread.Start();
             button1.Enabled = false;
         }
-        public void ThreadClient()
+        public async void ThreadClient()
         {
             try
             {
@@ -51,7 +51,7 @@ namespace ServerTCP
 
                     StreamReader sr = new StreamReader(stream, Encoding.Unicode);
                     StreamWriter writer = new StreamWriter(stream);
-                    var line = sr.ReadToEndAsync();
+                    string  line = await sr.ReadToEndAsync();
                     Invoke((MethodInvoker)delegate
                     {
                         textBox1.Text += line + "\r\n";

@@ -22,7 +22,7 @@ namespace ChatTest
             InitializeComponent();
         }
 
-        public void MsgRecive(IAsyncResult ar)
+        public void MsgRecive(IAsyncResult ar) // метод для принятия сообщений
         {
             Socket ns = ar.AsyncState as Socket;   
             Socket rs = ns.EndAccept(ar);

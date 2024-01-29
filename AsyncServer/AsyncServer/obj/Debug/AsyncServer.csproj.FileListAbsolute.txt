@@ -1,0 +1,3 @@
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\AsyncServer\AsyncServer\obj\Debug\AsyncServer.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\AsyncServer\AsyncServer\obj\Debug\AsyncServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\AsyncServer\AsyncServer\obj\Debug\AsyncServer.csproj.CoreCompileInputs.cache

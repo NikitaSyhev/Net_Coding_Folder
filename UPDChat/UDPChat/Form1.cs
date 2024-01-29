@@ -18,7 +18,7 @@ namespace UDPChat
 
         
         IPEndPoint remoteEndPoint;
-        Thread threadRec;
+        Thread threadRec; // мы его поменяли на CancelationToken
         CancellationTokenSource cts;
         public Form1()
         {

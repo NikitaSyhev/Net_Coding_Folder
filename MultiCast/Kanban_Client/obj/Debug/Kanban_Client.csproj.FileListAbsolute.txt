@@ -1,0 +1,21 @@
+D:\projects\Беляева\Kanban_client\bin\Debug\Kanban_client.exe.config
+D:\projects\Беляева\Kanban_client\bin\Debug\Kanban_client.exe
+D:\projects\Беляева\Kanban_client\bin\Debug\Kanban_client.pdb
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.csproj.AssemblyReference.cache
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.Form1.resources
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.Properties.Resources.resources
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.csproj.GenerateResource.cache
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.csproj.CoreCompileInputs.cache
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.exe
+D:\projects\Беляева\Kanban_client\obj\Debug\Kanban_client.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\bin\Debug\Kanban_client.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\bin\Debug\Kanban_client.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\bin\Debug\Kanban_client.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.Form1.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban_client\obj\Debug\Kanban_client.pdb

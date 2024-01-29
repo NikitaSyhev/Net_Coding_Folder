@@ -1,0 +1,21 @@
+D:\projects\Беляева\Kanban\bin\Debug\Kanban.exe.config
+D:\projects\Беляева\Kanban\bin\Debug\Kanban.exe
+D:\projects\Беляева\Kanban\bin\Debug\Kanban.pdb
+D:\projects\Беляева\Kanban\obj\Debug\Kanban_server.csproj.AssemblyReference.cache
+D:\projects\Беляева\Kanban\obj\Debug\Kanban.Form1.resources
+D:\projects\Беляева\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+D:\projects\Беляева\Kanban\obj\Debug\Kanban_server.csproj.GenerateResource.cache
+D:\projects\Беляева\Kanban\obj\Debug\Kanban_server.csproj.CoreCompileInputs.cache
+D:\projects\Беляева\Kanban\obj\Debug\Kanban.exe
+D:\projects\Беляева\Kanban\obj\Debug\Kanban.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\bin\Debug\Kanban.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\bin\Debug\Kanban.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\bin\Debug\Kanban.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban_server.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban_server.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban.Form1.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban_server.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban_server.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\MultiCast\Kanban\obj\Debug\Kanban.pdb
