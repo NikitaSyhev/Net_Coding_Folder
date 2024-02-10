@@ -1,53 +1,67 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net;
-using System.Net.Sockets;
 
 namespace Kanban
 {
     public partial class Form1 : Form
     {
+        private IPAddress brodcastAddress = IPAddress.Parse("224.5.5.8");
+        private UdpClient server = new UdpClient();
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            // Создание нового UDP сокета
-            Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+            try
+            {
+                // Создание конечной точки (IP-адрес и порт)
+                IPEndPoint ep = new IPEndPoint(brodcastAddress, 4000);
 
-            // Установка опции времени жизни для мультикастинга
-            socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.MulticastTimeToLive, 1);
+                // Отправка данных через сокет
+                byte[] data = Encoding.Unicode.GetBytes(textBox1.Text);
+                await server.SendAsync(data, data.Length, ep);
 
-            // IP-адрес мультикаст-группы
-            IPAddress dest = IPAddress.Parse("224.5.5.5");
+                // Очистка текстового поля ввода
+                textBox1.Text = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                // Обработка исключений, например, вывод в консоль или логирование
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
 
-            // Добавление сокета к мультикаст-группе
-            socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership, new MulticastOption(dest));
+        // Изменение IP адреса исходя из выбора сервера
+        private void cb_News_Server_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox checkBox = (CheckBox)sender;
+            switch (checkBox.Text)
+            {
+                case "News":
+                    brodcastAddress = IPAddress.Parse("224.5.5.5");
+                    break;
+                case "Business":
+                    brodcastAddress = IPAddress.Parse("224.5.5.6");
+                    break;
+                case "Teammates":
+                    brodcastAddress = IPAddress.Parse("224.5.5.7");
+                    break;
+                case "Alarm":
+                    brodcastAddress = IPAddress.Parse("224.5.5.8");
+                    break;
+            }
 
-            // Создание конечной точки (IP-адрес и порт)
-            IPEndPoint ep = new IPEndPoint(dest, 1024);
-
-            // Установка соединения с конечной точкой
-            socket.Connect(ep);
-
-            // Отправка данных через сокет
-            socket.Send(Encoding.Unicode.GetBytes(textBox1.Text));
-
-            // Закрытие сокета
-            socket.Close();
-
-            // Очистка текстового поля ввода
-            textBox1.Text = string.Empty;
+            // Закрытие текущего соединения и установка нового
+            server.Close();
+            server = new UdpClient();
+            server.Connect(new IPEndPoint(brodcastAddress, 4000));
         }
     }
 }
-

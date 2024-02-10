@@ -1,0 +1,10 @@
+D:\projects\Ушаков\NetGames\NetGamesClient\bin\Debug\NetGamesClient.exe.config
+D:\projects\Ушаков\NetGames\NetGamesClient\bin\Debug\NetGamesClient.exe
+D:\projects\Ушаков\NetGames\NetGamesClient\bin\Debug\NetGamesClient.pdb
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.csproj.AssemblyReference.cache
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.Form1.resources
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.Properties.Resources.resources
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.csproj.GenerateResource.cache
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.csproj.CoreCompileInputs.cache
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.exe
+D:\projects\Ушаков\NetGames\NetGamesClient\obj\Debug\NetGamesClient.pdb
