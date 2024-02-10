@@ -17,3 +17,23 @@ C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_Server
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_Server\obj\Debug\Chat_Server.exe
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_Server\obj\Debug\Chat_Server.pdb
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_Server\obj\Debug\Chat.Server.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\Chat_Server.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\Chat_Server.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\EntityFramework.dll
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\EntityFramework.xml
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat.Server.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.csproj.CopyComplete
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\obj\Debug\Chat_Server.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_Server\bin\Debug\Chat_Server.pdb

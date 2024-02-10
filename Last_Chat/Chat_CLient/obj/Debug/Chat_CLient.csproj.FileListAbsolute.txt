@@ -9,3 +9,15 @@ C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_CLient
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_CLient\obj\Debug\Chat_CLient.exe
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_CLient\obj\Debug\Chat_CLient.pdb
 C:\Users\К - 12\OneDrive\Документы\Ушаков В.Е\Chat\Chat_CLient\obj\Debug\Chat.ConnProps.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\bin\Debug\Chat_CLient.exe.config
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\bin\Debug\Chat_CLient.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\bin\Debug\Chat_CLient.pdb
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.csproj.AssemblyReference.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.csproj.SuggestedBindingRedirects.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat.Chat.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat.ConnProps.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.Properties.Resources.resources
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.csproj.GenerateResource.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.csproj.CoreCompileInputs.cache
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.exe
+C:\Users\nosychev\Desktop\Programmatic\Сетевое программирование\Last_Chat\Chat_CLient\obj\Debug\Chat_CLient.pdb

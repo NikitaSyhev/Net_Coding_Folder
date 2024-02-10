@@ -28,34 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Connect = new System.Windows.Forms.Button();
+            this.tb_Msg_Client = new System.Windows.Forms.TextBox();
+            this.btn_Send = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_Connect
             // 
-            this.button1.Location = new System.Drawing.Point(698, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Соединение";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Connect.Location = new System.Drawing.Point(698, 30);
+            this.btn_Connect.Name = "btn_Connect";
+            this.btn_Connect.Size = new System.Drawing.Size(94, 23);
+            this.btn_Connect.TabIndex = 0;
+            this.btn_Connect.Text = "Соединение";
+            this.btn_Connect.UseVisualStyleBackColor = true;
+            this.btn_Connect.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tb_Msg_Client
+            // 
+            this.tb_Msg_Client.Location = new System.Drawing.Point(12, 12);
+            this.tb_Msg_Client.Multiline = true;
+            this.tb_Msg_Client.Name = "tb_Msg_Client";
+            this.tb_Msg_Client.Size = new System.Drawing.Size(637, 399);
+            this.tb_Msg_Client.TabIndex = 1;
+            // 
+            // btn_Send
+            // 
+            this.btn_Send.Location = new System.Drawing.Point(698, 82);
+            this.btn_Send.Name = "btn_Send";
+            this.btn_Send.Size = new System.Drawing.Size(94, 23);
+            this.btn_Send.TabIndex = 2;
+            this.btn_Send.Text = "Отправить ";
+            this.btn_Send.UseVisualStyleBackColor = true;
+            this.btn_Send.Click += new System.EventHandler(this.btn_Send_Click);
             // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Send);
+            this.Controls.Add(this.tb_Msg_Client);
+            this.Controls.Add(this.btn_Connect);
             this.Name = "Chat";
             this.Text = "Chat";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Connect;
+        private System.Windows.Forms.TextBox tb_Msg_Client;
+        private System.Windows.Forms.Button btn_Send;
     }
 }
 
