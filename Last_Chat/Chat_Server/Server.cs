@@ -40,7 +40,8 @@ namespace Chat
         {
             InitializeComponent();
             token= cancelTokenSource.Token; //инициализировали токен и таск для закрытия потока
-            Task task = new Task(CreateSocket, token);            
+            Task task = new Task(CreateSocket, token);  
+            task.Start(); //запустили таск
         }
 
         //метод для создания сокета
